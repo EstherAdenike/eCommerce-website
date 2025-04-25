@@ -1,0 +1,103 @@
+[
+    {
+      "image": "images/blender.jpg",
+      "name": "High-Speed Blender",
+      "price": 18500
+    },
+    {
+      "image": "images/air_fryer.jpg",
+      "name": "Digital Air Fryer",
+      "price": 29500
+    },
+    {
+      "image": "images/dress1.jpg",
+      "name": "Floral Summer Dress",
+      "price": 8500
+    },
+    {
+      "image": "images/heels_red.jpg",
+      "name": "Red Stiletto Heels",
+      "price": 12000
+    },
+    {
+      "image": "images/foundation.jpg",
+      "name": "Matte Liquid Foundation",
+      "price": 4500
+    },
+    {
+      "image": "images/curler.jpg",
+      "name": "Electric Hair Curler",
+      "price": 7600
+    },
+    {
+      "image": "images/cooker.jpg",
+      "name": "Electric Pressure Cooker",
+      "price": 33000
+    },
+    {
+      "image": "images/dress2.jpg",
+      "name": "Lace Bodycon Dress",
+      "price": 9500
+    },
+    {
+      "image": "images/sandals.jpg",
+      "name": "Gold-Strap Sandals",
+      "price": 7800
+    },
+    {
+      "image": "images/lipstick.jpg",
+      "name": "Long-Lasting Lipstick Set",
+      "price": 3500
+    },
+    {
+      "image": "images/perfume.jpg",
+      "name": "Luxury Perfume - Bloom",
+      "price": 15500
+    },
+    {
+      "image": "images/bag.jpg",
+      "name": "Designer Shoulder Bag",
+      "price": 14500
+    },
+    {
+      "image": "images/makeup_kit.jpg",
+      "name": "Complete Makeup Kit",
+      "price": 9800
+    },
+    {
+      "image": "images/flat_shoes.jpg",
+      "name": "Black Flat Shoes",
+      "price": 6500
+    },
+    {
+      "image": "images/tunic.jpg",
+      "name": "Silk Tunic Top",
+      "price": 7200
+    },
+    {
+      "image": "images/face_cream.jpg",
+      "name": "Glow Face Cream",
+      "price": 3200
+    },
+    {
+      "image": "images/mixer.jpg",
+      "name": "Hand Mixer",
+      "price": 6800
+    },
+    {
+      "image": "images/jumpsuit.jpg",
+      "name": "Stylish Jumpsuit",
+      "price": 11000
+    },
+    {
+      "image": "images/sneakers.jpg",
+      "name": "White Casual Sneakers",
+      "price": 8900
+    },
+    {
+      "image": "images/nail_kit.jpg",
+      "name": "DIY Nail Kit",
+      "price": 4100
+    }
+  ]
+  

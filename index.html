@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Login/Register</title>
+  </head>
+  <body>
+    <div class="login">
+      <br />
+      <h1>Sign Up</h1>
+      <br />
+      <form onsubmit="details(event)">
+        <label for="email">Email Address</label><br /><br />
+        <input
+          type="email"
+          class="input"
+          id="email"
+          placeholder="Enter Email Address"
+        /><br /><br />
+        git init   <label for="password">Password</label><br /><br />
+        <input
+          type="password"
+          class="input"
+          id="password"
+          placeholder="Enter Password"
+        /><br /><br />
+
+        <button type="submit" class="button">Sign Up</button>
+      </form>
+
+      <p class="signup">Have an account? <a href="login.html">Log In</a></p>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

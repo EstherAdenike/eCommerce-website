@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/3ef12ef414.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    
+    <div class="cart-container">
+    <div class="carts">
+      <h1>Cart</h1>
+      <div class="cart-list">
+        <div class="cart">
+          <div class="cart-desc">
+            <div>
+              <div class="img-desc">
+                <img
+                  class="desc-img"
+                  height="100px"
+                  src="images\Women's Dress V-neck.jpg"
+                  alt="Women's Dress V-neck"
+                />
+                <p style="text-align: left">Women's Dress V-neck</p>
+              </div>
+            </div>
+
+            <div class="price"><h3 style="text-align: left">₦ 20, 000</h3></div>
+          </div>
+          <div class="add-delete">
+            <div class="action" id="delete">
+              
+                <i class="fa-solid fa-trash"></i>&nbsp;&nbsp;Remove
+              
+            </div>
+            <div class="action">
+              <i
+                  class="fa-solid fa-square-minus" onclick="decrease(this)"
+                  style="font-size: 30px; color: rgb(181, 189, 181)"
+                ></i
+                >&nbsp;&nbsp;&nbsp;&nbsp;<span class="number">1</span>&nbsp;&nbsp;&nbsp;&nbsp;<i
+                  class="fa-solid fa-square-plus" onclick="increase(this)"
+                  style="font-size: 30px; color: blue"
+                ></i
+              >
+              
+            </div>
+          </div>
+        
+
+        </div>
+        <hr width="57%">
+
+        
+        <div class="cart">
+            <div class="cart-desc">
+              <div>
+                <div class="img-desc">
+                  <img
+                    class="desc-img"
+                    height="100px"
+                    src="images\Aichun Beauty Black Facial Mask.jpg"
+                    alt="Aichun Beauty Black Facial Mask.jpg"
+                  />
+                  <p style="text-align: left">Aichun Beauty Black Facial Mask</p>
+                </div>
+              </div>
+  
+              <div class="price"><h3 style="text-align: left">₦ 20, 000</h3></div>
+            </div>
+            <div class="add-delete">
+              <div class="action" id="delete">
+              
+                <i class="fa-solid fa-trash"></i>&nbsp;&nbsp;Remove
+              
+            </div>
+            <div class="action">
+              <i
+                  class="fa-solid fa-square-minus" onclick="decrease(this)"
+                  style="font-size: 30px; color: rgb(181, 189, 181)"
+                ></i
+                >&nbsp;&nbsp;&nbsp;&nbsp;<span class="number">1</span>&nbsp;&nbsp;&nbsp;&nbsp;<i
+                  class="fa-solid fa-square-plus" onclick="increase(this)"
+                  style="font-size: 30px; color: blue"
+                ></i
+              >
+              
+            </div>
+            </div>
+          </div>
+          <hr width="57%">
+          <div class="cart">
+            <div class="cart-desc">
+              <div>
+                <div class="img-desc">
+                  <img
+                    class="desc-img"
+                    height="100px"
+                    src="images\camiwind Men's Fashion Simple Design Hoodies.jpg"
+                    alt="Men's Fashion Simple Design Hoodies"
+                  />
+                  <p style="text-align: left">camiwind Men's Fashion Simple Design Hoodies</p>
+                </div>
+              </div>
+  
+              <div class="price"><h3 style="text-align: left">₦ 20, 000</h3></div>
+            </div>
+            <div class="add-delete">
+              <div class="action" id="delete">
+              
+                <i class="fa-solid fa-trash"></i>&nbsp;&nbsp;Remove
+              
+            </div>
+            <div class="action">
+              <i
+                  class="fa-solid fa-square-minus" onclick="decrease(this)"
+                  style="font-size: 30px; color: rgb(181, 189, 181)"
+                ></i
+                >&nbsp;&nbsp;&nbsp;&nbsp;<span class="number">1</span>&nbsp;&nbsp;&nbsp;&nbsp;<i
+                  class="fa-solid fa-square-plus" onclick="increase(this)"
+                  style="font-size: 30px; color: blue"
+                ></i
+              >
+              
+            </div>
+            </div>
+          </div>
+          <hr width="57%">
+          <div class="cart">
+            <div class="cart-desc">
+              <div>
+                <div class="img-desc">
+                  <img
+                    class="desc-img"
+                    height="100px"
+                    src="images\Dettol Skincare Antibacterial Bathing Soap.webp"
+                    alt="Dettol Skincare Antibacterial Bathing Soap"
+                  />
+                  <p style="text-align: left">Dettol Skincare Antibacterial Bathing Soap</p>
+                </div>
+              </div>
+  
+              <div class="price"><h3 style="text-align: left">₦ 20, 000</h3></div>
+            </div>
+            <div class="add-delete">
+              <div class="action" id="delete">
+              
+                <i class="fa-solid fa-trash"></i>&nbsp;&nbsp;Remove
+              
+            </div>
+            <div class="action">
+              <i
+                  class="fa-solid fa-square-minus" onclick="decrease(this)"
+                  style="font-size: 30px; color: rgb(181, 189, 181)"
+                ></i
+                >&nbsp;&nbsp;&nbsp;&nbsp;<span class="number">1</span>&nbsp;&nbsp;&nbsp;&nbsp;<i
+                  class="fa-solid fa-square-plus" onclick="increase(this)"
+                  style="font-size: 30px; color: blue"
+                ></i
+              >
+              
+            </div>
+            </div>
+          </div>
+          <hr width="57%">
+      </div>
+    </div>
+    <div class="checks">
+        <h2>Cart Summary</h2>
+        <div class="check-list">
+          <div class="check">
+            <div class="check-desc">
+              <div>
+                <div class="img-desc">
+                  
+                  <p style="text-align: left">Subtotal</p>
+                </div>
+              </div>
+  
+              <div class="price"><h3 style="text-align: left">₦ 20, 000</h3></div><br><br>
+              <a href="checkout.html"><button class="button">Checkout</button></a>
+            </div>
+            
+            </div>
+          
+  
+          </div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
